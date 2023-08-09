@@ -4,8 +4,15 @@ const person = {
   name: "John Doe",
   age: 80,
 };
-const team1 = players;
-const cap1 = person;
+const team = players;
+const team1 = [players.length];
+for(let i=0;i<players.length;i++){
+	team1[i] = players[i];
+}
+const cap1 = {
+	name: "John Doe",
+	age : 80,
+};
 
 
 // Write your code here, make sure the name of variables is exactly same as mentioned in the problem statement
